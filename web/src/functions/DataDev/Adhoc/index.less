@@ -1,0 +1,191 @@
+.AceEditorbox{
+  .ace_print-margin{
+    left:0px !important;
+  }
+}
+.AceEditorbox{
+  height: 450px;
+  width: 100%;
+  overflow: auto;
+  min-height: 50px;
+  max-height: 450px;
+}
+
+.adhoc-tabs{
+  .tab-panel{
+    padding-top: 0px !important;
+  }
+  .addbtn{
+    width: 50px !important;
+  }
+}
+.public-nav1{
+  background: #F8F8F8;
+  border-bottom: 1px solid #D6D6D6;
+  padding-left: 15px;
+  height: 25px;
+  > a {
+    position: relative;
+    display: inline-block;
+    padding: .6em 1em 0;
+    z-index: 2;
+    width: 100px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      right: -10px;
+      bottom: -1px;
+      left: 0;
+      z-index: -2;
+      background: #E9E9E9;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+      border: 1px solid #bfbfbf;
+      border-bottom: 1px solid #E8D9D9;
+      border-radius: .5em .5em 0 0;
+      box-shadow: 0 .15em white inset;
+      transform: scaleY(1.2) perspective(0.5em) rotateX(5deg);
+      transform-origin: bottom;
+    }
+  }
+  .active{
+    &:before {
+      background: #ffffff;
+      border-bottom:none
+    }
+  }
+}
+.public-nav{
+  position: relative;
+  z-index: 1;
+  background: #F8F8F8;
+  border-bottom: 1px solid #D6D6D6;
+  padding-left: 50px;
+  height: 25px;
+  > li {
+    position: relative;
+    display: inline-block;
+    padding: .3em 1em 0;
+    color: inherit;
+    text-decoration: none;
+    margin: 4px -0.3em;
+    width: 100px;
+    cursor: pointer;
+    &:before {
+      border: .1em solid #bfbfbf;
+      content: ''; /* To generate the box */
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      border-bottom: 1px solid #E8D9D9;
+      border-radius: .5em .5em 0 0;
+      background:  #E9E9E9 linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,0));
+      box-shadow: 0 .15em white inset;
+      transform: scale(1.1, 1.3) perspective(.5em) rotateX(5deg);
+      transform-origin: bottom;
+    }
+    &:hover{
+      z-index: 3;
+    }
+
+  }
+  .active {
+    z-index: 2;
+    &:before {
+      background-color: #FFF;
+      border-bottom:none;
+    }
+  }
+}
+
+.public-nav2{
+  position: relative;
+  z-index: 1;
+  background: #F8F8F8;
+  border-bottom: 1px solid #D6D6D6;
+  padding-left: 50px;
+  height: 25px;
+  > a {
+    position: relative;
+    display: inline-block;
+    padding: .3em 1em 0;
+    color: inherit;
+    text-decoration: none;
+    margin: 4px -0.3em;
+    width: 100px;
+    cursor: pointer;
+    &:before {
+      border: .1em solid #bfbfbf;
+      content: ''; /* To generate the box */
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      border-bottom: 1px solid #E8D9D9;
+      border-radius: .5em .5em 0 0;
+      background:  #E9E9E9 linear-gradient(hsla(0,0%,100%,.6), hsla(0,0%,100%,0));
+      box-shadow: 0 .15em white inset;
+      transform: scale(1.1, 1.3) perspective(.5em) rotateX(5deg);
+      transform-origin: bottom;
+    }
+    &:hover{
+      z-index: 3;
+    }
+
+  }
+  .selected {
+    z-index: 2;
+    &:before {
+      background-color: #FFF;
+      border-bottom:none;
+    }
+  }
+}
+
+main {
+  display: block;
+  margin-bottom: 1em;
+  background: #eee;
+  padding: 1em;
+  border-radius: .15em;
+}
+
+
+
+.bfd-tabs{
+  .x-open-close-container{
+    position: absolute;
+    right: 0;
+    margin: 5px 20px;
+    .icon-hide{
+      background-position-y:-27.5px !important; ;
+    }
+    .x-open-icon{
+      background-position:-3px -3px
+    }
+    .x-close-icon{
+      background-position:-25px -3px
+    }
+  }
+  .nav-tabs{
+    height: 30px;
+    background: #F2F2F2;
+    padding: 0px !important;
+    >li.active{
+      a,a:hover,a:active,a:focus{
+        background-color: #FFFFFF !important;
+        border: 1px solid #E3EBF3 !important;
+        border-bottom: 0px !important;
+        border-top-width: 2px !important;
+        border-top-color: #38c3e6 !important;
+        color: black !important;
+      }
+    }
+    li{
+      width: 100PX;
+      text-align: CENTER;
+      a{
+        padding: 6px !important;
+      }
+    }
+  }
+}

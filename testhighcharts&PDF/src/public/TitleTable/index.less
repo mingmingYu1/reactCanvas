@@ -1,0 +1,53 @@
+.public-titleTable {
+  .likeTables.active .clickTitle > div{
+    color: #fff;
+  }
+  .likeTables.titleTable {
+    margin-top: 60px;
+  }
+  .likeTables.lastChild {
+    margin-top: -60px;
+  }
+  .likeTables {
+    width: 290px;
+    margin: 0 auto;
+    > div:first-child {
+      height: 105px;
+      padding: 25px 10px;
+      font-size: 14px;
+      color: #333;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      border-top: 1px solid #eff3f8;
+      border-bottom: 1px solid #eff3f8;
+    }
+    > div:last-child {
+      > div {
+        height: 35px;
+        width: 200px;
+        overflow: hidden;
+        font-size: 12px;
+        &:nth-of-type(2) {
+          > span {
+            border-bottom: none;
+            border-top: none;
+          }
+        }
+        > span {
+          width: 50%;
+          float: left;
+          padding-left: 10px;
+          border: 1px solid #eff3f8;
+          border-left: none;
+          height: 35px;
+          line-height: 35px;
+          &:first-child {
+            background-color: #fcfcfc;
+          }
+        }
+      }
+    }
+
+  }
+}

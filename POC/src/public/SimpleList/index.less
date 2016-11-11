@@ -1,0 +1,90 @@
+.poc-simple-list {
+	color: #666;
+	.article {
+		h3 {			
+			font-size: 16px;
+			line-height: 24px;
+			cursor: pointer;
+			color: #666;
+			>span {
+				color: #002e5b;
+			}
+			>.bfd-icon {
+				position: relative;
+				top: -10px;
+				padding: 0 6px;
+			}
+		}
+		span {
+			color: #adbac7;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			display: inline-block
+		}
+	}
+	.icons-list {
+		.icon-box {
+			>.fa {
+				cursor: pointer;
+				margin: 0 14px;
+				font-size: 18px;
+				color: #2db7f5;
+
+				&:first-child {
+					cursor: pointer;
+				}
+			}
+		}
+		.consult-operation-box {
+			width: 170px;
+			float: right;
+			margin-right: 15px;
+			.fa {
+				cursor: pointer;
+				margin: 0 14px;
+				font-size: 18px;
+				color: #2db7f5;
+
+				&:first-child {
+					cursor: pointer;
+				}
+			}
+			.consult-operation-con {
+				display: inline-block;
+				position: relative;
+				.operation-tips {
+					position: absolute;
+					left: 10px;
+					top: -28px;
+					width: 55px;
+					height: 24px;
+					background: black;
+					opacity: 0.3;
+					filter:alpha(opacity=30);
+					color: #fff;
+					text-align: center;
+					line-height: 24px;
+					border-radius: 2px;
+					display: none;
+				}
+			}
+			.consult-operation-con:hover {
+				.operation-tips {
+					display: block;
+				}
+			}
+		}
+		text-align: right;
+	}
+	>ul>li {
+		border-bottom: 1px solid #ddd;
+
+		&:last-child {
+			border: none;
+		}
+		color:#666;
+		padding-top: 15px;
+		:hover{color: #2db7f5;}
+	}
+}

@@ -1,0 +1,71 @@
+@borderColor: #e3e3e3;
+@fontColor: #666;
+@mainColor: #42a5f5;
+
+// 搜索框
+.search-box {
+	width: 310px;
+	height: 30px;
+}
+
+.search-con-box {
+	position: relative;
+}
+
+.search-choose {
+	display: none;
+	position: absolute;
+	left: 1px;
+	top: 28px;
+	z-index: 2;
+	border: 1px solid @mainColor;
+	border-radius: 0 0 2px 2px;
+	width: 248px;
+	background: #fff;
+	li {
+		height: 30px;
+		line-height: 30px;
+		padding-left: 15px;
+		cursor: pointer;
+		border-bottom: 1px solid @mainColor;
+	}
+	li:last-child {
+		border-bottom: none;
+	}
+}
+
+.choose-boolean {
+	display: block;
+}
+
+.search-con {
+	position: relative;
+	width: 250px;
+	height: 30px;
+	border: 1px solid @borderColor;
+	border-radius: 4px;
+	.fa {
+		position: absolute;
+		left: 6px;
+		top: 4px;
+		font-size: 18px;
+		color: @mainColor;
+	}
+	input {
+		width: 100%;
+		height: 100%;
+		padding-left: 28px;
+	}
+}
+
+.search-btn {
+	width: 48px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	background: @mainColor;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+}

@@ -1,0 +1,41 @@
+@borderColor: #e3e3e3;
+@fontColor: #666;
+@mainColor: #42a5f5;
+
+.new-modal-box {
+	.ant-btn {
+		border: 1px solid @mainColor;
+		color: @mainColor;
+	}
+	.ant-btn:hover {
+		border: 1px solid @mainColor;
+		color: @mainColor;
+	}
+	.ant-btn-primary {
+		background: @mainColor;
+		color: #fff;
+	}
+	.ant-btn-primary:hover {
+		background: @mainColor;
+		color: #fff;
+	}
+}
+
+.latest-modal-box {
+	width: 520px;
+	height: 520px;
+	.simditor .simditor-toolbar {
+		> ul:after {
+			display: block;
+			content: '';
+			clear: both;
+		}
+		> ul {
+			width: 486px;
+			zoom: 1;
+		}
+		> ul > li {
+			float: left;
+		}
+	}
+}

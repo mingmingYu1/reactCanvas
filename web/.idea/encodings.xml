@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/functions/OmCenter/OMSettings/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/AssignPermissions/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/Authentication/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/Authority/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/BuildOrg/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/JoinOrg/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/MyOrg/BuildOrg/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/MyOrg/JoinOrg/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/OrgManager/MyOrg/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/ProjectManage/MyProject/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/ProjectManage/ProjectList/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/SysManager/QueueManager/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/functions/SysManager/QueueSettings/index.jsx" charset="UTF-8" />
+  </component>
+</project>

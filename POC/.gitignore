@@ -1,0 +1,12 @@
+*.zip
+*.rar
+*.log
+*.orig
+.svn
+.DS_Store
+.com.apple.timemachine.supported
+.project
+node_modules
+build
+dist
+.idea/workspace.xml

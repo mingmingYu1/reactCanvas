@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "data": [
+    {"name": "母婴用品", "id": "muyin"},
+    {"name": "美妆洗护", "id": "meizhuang"},
+    {"name": "食品保健", "id": "shipin"},
+    {"name": "海外直邮", "id": "haiwai"},
+    {"name": "家居日用", "id": "jiaju"},
+    {"name": "时尚青奢", "id": "shishang"},
+    {"name": "进口汽车", "id": "jinkou"}
+  ]
+}

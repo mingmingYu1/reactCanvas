@@ -1,0 +1,83 @@
+.portrait { padding:20px 0; border-left:5px solid #bfbfbf; text-align: center; color: #333;
+	> img { width: 120px; height: 120px}
+	h5 {height:40px;line-height:40px;}
+}
+.fl-left {float:left;}
+.fl-right {float:right;}
+.content-left-inner {padding:10px;}
+.collection-box {
+  color: #666;
+  font-size:12px;
+	.list-box {background-color:#ffffff;margin-top:20px;padding:20px;}
+}
+.center-board { .mw-box { .content {
+			>.content-left { padding: 0px 0px 10px 0px; background-color:#e0e0e0;
+				.upload-btn { color: #ffffff; font-size: 14px; background-color: #42a5f5; border-color: #42a5f5; 
+					.bfd-icon { margin-right: 4px }
+				}
+				>ul {
+					>li { font-size: 14px; 
+						h4 { text-align: left;}
+						>a.active {text-decoration:underline;color:#62b0f4;}
+						>a {cursor:default;
+							i {font-size:16px;}
+						}
+						>ul>li{
+						  &.active a{color:#62b0f4;}
+							a {cursor:pointer;}
+							a.active, a:hover {color:#62b0f4;background-color:#e0e0e0;}
+						} 
+					}
+				}
+				.nav-stacked>li { &.active,
+					&:hover { border-left-color: #013f7c; }
+				}
+			}
+		}
+	}
+	.panel-card { padding: 0px 10px 10px 10px;
+		.header { 
+				
+			}
+			>ul {}
+		.doc_list { margin: 0 auto; padding-top: 12px; padding-bottom: 10px; margin-bottom:50px;border-bottom: 5px solid #ddd;
+			i {font-size:60px;}
+			
+		}
+		.clear { clear: both }
+	}
+	.poc-card-list { .panel-card { background-color: #fff; border: none;
+		.no-data {padding-left: 10px;}
+		}
+	}
+	.list-box { .header h3 {height:35px;color: #333; font-size:14px;
+			
+		}
+		.table { margin-bottom: 10px;
+			>thead{border-bottom:3px solid #ddeefd;
+				>tr>th { font-weight: bold }
+			}			
+		}
+
+		.table>thead>tr>th { border-width: 0 }
+		.table>tbody>tr:hover{color:#42a5f5;cursor: pointer;
+				>td,
+				>th {color:#42a5f5 !important; 
+					&:hover {color:#42a5f5;} 
+				}
+				>td[colspan],
+				>th {color:#666 !important; &:hover {color:#42a5f5;} cursor: default;}
+		}
+		.table>tbody>tr>td,
+		.table>tbody>tr>th{}
+		.table>tfoot>tr>td,
+		.table>tfoot>tr>th,
+		.table>thead>tr>td,
+		.table>thead>tr>th {}
+	}
+	.poc-bfd-pager { margin: 14px 0; }
+}
+
+@media (max-width:760px) {
+	.center-board .mw-box .content > .content-left > ul > li { width: 100px; display: inline-block; margin: 4px; border-top: 1px solid #ddd; }
+}

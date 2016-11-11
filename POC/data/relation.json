@@ -1,0 +1,56 @@
+{
+	"nodes": [{
+		"id": "0",
+		"name": "金融信息事业部",
+		"symbolSize": 100,
+		"attributes": {
+			"modularity_class": 0
+		}
+	}, {
+		"id": "1",
+		"name": "河北分公司",
+		"symbolSize": 50,
+		"attributes": {
+			"modularity_class": 0
+		}
+	}, {
+		"id": "2",
+		"name": "河南分公司",
+		"symbolSize": 50,
+		"attributes": {
+			"modularity_class": 0
+		}
+	}, {
+		"id": "3",
+		"name": "采集中心",
+		"symbolSize": 50,
+		"attributes": {
+			"modularity_class": 0
+		}
+	}, {
+		"id": "4",
+		"name": "Interest",
+		"symbolSize": 50,
+		"attributes": {
+			"modularity_class": 1
+		}
+	}],
+	"links": [{
+		"id": "1",
+		"source": "1",
+		"target": "0"
+	}, {
+		"id": "2",
+		"source": "2",
+		"target": "0"
+	}, {
+		"id": "3",
+		"source": "3",
+		"target": "0"
+	}, {
+		"id": "4",
+		"source": "4",
+		"target": "1"
+	}],
+	"depts": ["一级部门", "二级部门"]
+}

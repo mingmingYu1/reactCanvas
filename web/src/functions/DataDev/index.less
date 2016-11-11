@@ -1,0 +1,125 @@
+.treebox{
+  width: 170px;
+  cursor: pointer;
+  max-width: 350px;
+  min-width: 100px;
+  height: 100%;
+  background: #F8F8F8;
+  min-height: 500px;
+  padding: 10px 0 0 5px;
+  float: left;
+  overflow: auto;
+  border: 1px solid #EEECEC;
+  position: absolute;
+  .bfd-tree ul li {
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    span {
+      margin-right: 10px;
+    }
+  }
+  .treeNode{
+    position: absolute;
+    top:4px;
+    padding: 0 0 0 20px !important;
+    margin-left: 15px;
+    -ms-user-select:none;
+  }
+  .seachTree{
+    display: flex;
+    margin-bottom: 10px;
+    .bfd-clearable-input{
+      width: 110px;
+      input.form-control{
+        height: 25px;
+        width: 110px;
+        padding-right:15px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+      .clear{
+        right: 4px;
+      }
+    }
+    .btn{
+      padding: 1px 5px;
+      height: 25px;
+      margin-left: -1px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+
+  }
+}
+.left170{
+  left: 168px;
+}
+.Container_body{
+  margin-left: 170px;
+  .navbar_btn{
+    height: 40px;
+    background: #F8F8F8;
+    border-bottom: 1px solid #EEECEC;
+     >ul{
+      list-style-type: none;
+      display: inline-block;
+      padding: 0;
+      margin-top: 5px;
+      padding-right: 20px;
+      margin-bottom:0px;
+      line-height: 30PX;
+      >li{
+        float: left;
+        margin-left:8px;
+        cursor: pointer;
+      }
+      .noBorde i{
+        border: 0px;
+        background: none;
+        padding-top: 10px;
+        width: 5px;
+        &:hover{
+          background-color: #ffffff;
+          color: black;
+        }
+      }
+    }
+    .dropdown{
+      width: 70PX;
+      margin: 0 10px;
+      .dropdown-toggle{
+        height: 25px;
+        .title{
+          line-height: 25px;
+          height: 25px;
+        }
+      }
+    }
+    .dropdown-menu{
+      min-width: 70px;
+      ul{
+        li{
+          width: 68PX;
+        }
+      }
+    }
+  }
+  .minder-view{
+    min-height: 500px;
+    .funTable{
+      border: 1px solid #E2E2E2;
+      border-radius: 5px;
+      overflow: hidden;
+      border-collapse: initial;
+      thead{
+        background: #F0F0F0;
+      }
+      pre {
+        font-size: 11px;
+        color: #999999;
+      }
+    }
+  }
+
+}

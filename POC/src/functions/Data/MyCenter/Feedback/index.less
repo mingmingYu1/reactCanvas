@@ -1,0 +1,70 @@
+@borderColor: #e3e3e3;
+@fontColor: #666;
+@mainColor: #42a5f5;
+
+.feedback-box {
+	max-width: 1280px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: @fontColor;
+}
+
+// 标题
+.feedback-tit {
+	font-size: 14px;
+	color: @fontColor;
+	span,i {
+		height: 30px;
+		line-height: 30px; 
+	}
+	.fa {
+		font-size: 14px;
+		margin: 0 8px;
+	}
+}
+
+// 内容
+.feedback-con {
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 2px;
+	margin-bottom: 30px;
+	padding: 20px 15px;
+}
+
+.feedback-con-tit {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+	font-size: 18px;
+	border-left: 4px solid @mainColor;
+}
+
+.feedback-text{
+	padding: 15px 40px;
+	textarea {
+		height: 200px;
+		border: 1px solid @borderColor;
+		padding: 0;
+		border-radius: 4px;
+	} 
+}
+
+.feedback-btn {
+	input {
+		height: 30px;
+		line-height: 30px;
+		padding: 0 15px;
+		background: @mainColor;
+		border: 1px solid @mainColor;
+		border-radius: 4px;
+		color: #fff;
+	}
+	.feedback-cancel {
+		background: #fff;
+		border: 1px solid @mainColor;
+		color: @mainColor;
+	}
+}

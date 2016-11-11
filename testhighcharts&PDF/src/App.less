@@ -1,0 +1,142 @@
+html, body, #app {
+  height: 100%;
+}
+
+#wrapper {
+  position: relative;
+  min-height: 100%;
+  animation: fade .25s cubic-bezier(.455,.03,.515,.955);
+}
+
+#header {
+  background-color: #ff5722;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  .logo {
+    margin: 0;
+    font-size: 20px;
+    .glyphicon {
+      margin-right: 1em;
+    }
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+#body {
+  padding-bottom: 60px;
+  > .sidebar {
+    padding: 0;
+  }
+  > .content {
+    padding: 20px;
+    > div {
+      animation: fade .25s cubic-bezier(.455,.03,.515,.955);
+    }
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0; 
+  }
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 12px;
+  background-color: #333;
+  color: #ccc;
+  a {
+    color: #fff;
+  }
+  .logo {
+    margin-right: 60px;
+  }
+}
+
+//    µ¼º½
+.headerNav {
+  height: 50px;
+  >li {
+    float: left;
+    border: none;
+    &:first-child {
+      a > {
+        border: none;
+      }
+    }
+    a {
+      font-size: 18px;
+      display: inline-block;
+      height: 50px;
+      border: none;
+      padding: 0 7px;
+      margin-left: 20px;
+      &:hover {
+        border-bottom: 5px solid #4dd0e1;
+        background: none;
+      }
+      &:focus {
+        background: none;
+      }
+    }
+  }
+  >li.active {
+    >a {
+      border-bottom: 5px solid #80deea;
+      background: none;
+      &:hover {
+        border-bottom: 5px solid #80deea;
+        background: none;
+      }
+      &:focus {
+        background: none;
+      }
+    }
+  }
+}
+
+.leftNav {
+  margin-left: -15px;
+  ul {
+    border-left: 5px solid #eaeaea;
+    border-right: 2px solid #eaeaea;
+    > li {
+      margin-left: -5px;
+      text-align: center;
+      > a {
+        &:focus {
+          background: none;
+        }
+      }
+    }
+  }
+}
+
+ul.init > li:first-child {
+  border-left-color: #2196f3;
+  > a {
+    background-color: #f5f5f5;
+  }
+}
+
+//
+
+.overflow {
+  overflow: hidden;
+}
+

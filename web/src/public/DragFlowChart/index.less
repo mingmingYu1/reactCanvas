@@ -1,0 +1,235 @@
+.flowslider{
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  right: 10px;
+  top: -30px;
+  .bar{
+    height: 4px !important;
+  }
+  .slider{
+    height: 13px !important;
+    width: 5px !important;
+  }
+  .bfd-scale {
+    .tick {
+      color: #85929E !important;
+      div {
+        width: 1px !important;
+        height: 5px !important;
+        background-color: #C9C9C9 !important;
+      }
+    }
+  }
+}
+
+
+
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+
+  .selected .graph-node,.active .graph-node {
+    background: #e6f5fa !important;
+  }
+  .selected .path-node .circleEnd,.active .path-node .circleEnd{
+    display: block;
+  }
+}
+html { -webkit-text-size-adjust:none; }
+.link {
+  stroke: #999;
+}
+marker path,  marker circle{
+  fill: #0099CC;
+}
+
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+  vector-effect: non-scaling-stroke;
+}
+
+.rect2{
+  fill: #ffffff;
+  stroke: #42a5f5;
+  stroke-width: 1;
+}
+
+.node text {
+  fill: #216CC7;
+  font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+.selected{
+  .graph-node{
+    background: #ccc;
+  }
+}
+.drawpathend{
+  cursor: crosshair;
+}
+
+.startHover{
+  .circleStart{
+    display: block !important;
+  }
+}
+
+.path-node_lr{
+  width: 18px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: -49px;
+  float: left;
+  &:hover{
+    .circleEnd{
+      display: block;
+    }
+  }
+
+  .circleStart{
+    width: 11px;
+    height: 11px;
+    border:  3px solid rgba(9, 178, 185, 0.75);
+    border-radius: 8px;
+    margin-left:13px;
+    z-index: 1;
+    margin-top:22.4px ;
+    overflow: hidden;
+    display: none;
+  }
+  .circleEnd{
+    width: 6px;
+    height: 6px;
+    border: 3px solid rgba(154, 148, 148, 0.34);
+    border-radius: 8px;
+    margin-left: 1px;
+    z-index: 1;
+    margin-top: 23.5px;
+    overflow: hidden;
+    display: none;
+  }
+
+}
+
+.path-node_tb{
+  height: 18px;
+  overflow: hidden;
+
+  &:hover{
+    .circleEnd{
+      display: block;
+    }
+  }
+
+  .circleStart{
+    width: 11px;
+    height: 11px;
+    border:  3px solid rgba(9, 178, 185, 0.75);
+    border-radius: 8px;
+    margin-left:24.4px;
+    z-index: 1;
+    margin-top: 13px;
+    overflow: hidden;
+    display: none;
+  }
+  .circleEnd{
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(154, 148, 148, 0.34);
+    border-radius: 8px;
+    margin-left: 26.4px;
+    z-index: 1;
+    margin-top: -4px;
+    overflow: hidden;
+    display: none;
+  }
+
+}
+
+
+.graph-node{
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  >div:first-child{
+    margin: 5px 15px;
+  }
+  .graph-node-name{
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    margin-left: -22px;
+    height: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .graph-node-type{
+      vertical-align: middle;
+      text-align: center;
+      font-size: 11PX;
+      height: 10px;
+      margin-top: 4px;
+      font-family: "iconfont-graph";
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #333;
+
+  }
+}
+
+
+.icon_input{
+  background: url("../../public/images/input.png")  no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+.icon_sql{
+  background: url("../../public/images/sql.png")  no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+.icon_mr{
+  background: url("../../public/images/mr.png")  no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+.icon_group{
+  background: url("../../public/images/group.png")  no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+.icon_output{
+  background: url("../../public/images/output.png")  no-repeat;
+  width: 27px;
+  height: 25px;
+  background-size: cover;
+}
+.icon_spark{
+  background: url("../../public/images/spark.png")  no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+.icon_sparklong{
+  background: url("../../public/images/sparklong.png")  no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}

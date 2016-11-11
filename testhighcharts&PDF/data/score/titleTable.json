@@ -1,0 +1,30 @@
+{
+  "code": 200,
+  "data": {
+    "basicInfo_weight": "21%",
+    "basicInfo_score": 20,
+    "basicInfo_regAssets": 1080,
+    "basicInfo_openDate": "2015-12-18",
+    "basicInfo_emps": 3000,
+    "specialInfo_weight": "20%",
+    "specialInfo_score": 0,
+    "specialInfo_compSpecial": "无",
+    "specialInfo_special": "无",
+    "specialInfo_lpSpecial": "无",
+    "trInfo_weight": "28%",
+    "trInfo_score": 19,
+    "trInfo_sixMVotes": 40,
+    "trInfo_sixMInvalidRate": 20,
+    "trInfo_sixMVotesRate": "50%",
+    "creditInfo_weight": "6%",
+    "creditInfo_score": -3,
+    "creditInfo_entCreRec": "",
+    "creditInfo_lperCrecardRec": "",
+    "creditInfo_ryxBusOverdueRec": "",
+    "capacityInfo_weight": "26%",
+    "capacityInfo_score": 18,
+    "capacityInfo_aveAmtAtkLsmon": 456,
+    "capacityInfo_grossProfitOfLtyear": 123,
+    "capacityInfo_atkSalesIncRatioLsmon": "14%"
+  }
+}

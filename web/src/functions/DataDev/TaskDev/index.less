@@ -1,0 +1,102 @@
+.navbar_btn{
+  position: relative;
+    .navTip{
+      color: #BBB8B8;
+      margin: 12px;
+    }
+}
+.minder-view{
+  position: relative;
+  .nodeBox{
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    z-index: 1;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #ececec;
+    box-shadow: 0 3px 4px -1px rgba(0, 0, 0, 0.14), 0 4px 5px 0 rgba(0, 0, 0, 0.098), 0 1px 10px 0 rgba(0, 0, 0, 0.014);
+    transition:height 0.5s;
+    -moz-transition:height 0.5s; /* Firefox 4 */
+    -webkit-transition:height 0.5s; /* Safari and Chrome */
+    -o-transition:height 0.5s; /* Opera */
+    .nodeTitle{
+      height: 30px;
+      line-height: 30px;
+      font-size: 14px;
+      background: #0095D5;
+      border-bottom: 1px solid #DADADA;
+      color: #FFFFFF;
+      font-weight: 600;
+      min-width: 100px;
+      span{
+        margin: 0px 5px;
+      }
+      i{
+        cursor: pointer;
+        padding: 0px 3px;
+      }
+    }
+    ul{
+      padding: 0px 5px;
+      list-style-type: none;
+      display: inline-block;
+      max-width: 110px;
+      margin:0px;
+      >li {
+        cursor: pointer;
+        padding: 3px 0px;
+        margin: 2px 0px;
+        width: 50px;
+        float: left;
+        button{
+          width: 110px;
+          box-shadow: 0 1px 3px 1px rgba(0,0,0,.1);
+          background: #FcFFFF;
+          border-color: #84C8FF !important;
+        }
+        &:hover,&:active,&:focus{
+          background:#EEEEEE !important;
+          color: #42a5f5 !important;
+        }
+        >div:first-child{
+         margin-left: 12px;
+        }
+      }
+    }
+    button{
+      &:hover,&:active,&:focus{
+        background:#EEEEEE !important;
+        color: #42a5f5 !important;
+      }
+    }
+
+  }
+  .closeBox{
+    height:30px;
+    .nodeTitle{
+    i{
+      &:before{
+        content:"\f0da";
+      }
+     }
+   }
+  }
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+  .navbar_btn{
+    ul{
+      li{
+        button{
+          font-size: 12PX;
+          padding: 4px 5px;
+        }
+      }
+    }
+  }
+}

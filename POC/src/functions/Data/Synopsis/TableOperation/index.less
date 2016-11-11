@@ -1,0 +1,36 @@
+@borderColor: #ececec;
+@fontColor: #666;
+@mainColor: #42a5f5;
+
+// 操作
+.synopsis-article-operation {
+	.fa-download,.fa-heart,.fa-share-alt {
+		font-size: 16px;
+		color: @mainColor;
+	}
+	.is-collect {
+		color: red;
+	}
+	>div {
+		position: relative;
+		cursor: pointer;
+		.operation-tips {
+			position: absolute;
+			left: 0;
+			top: -28px;
+			width: 55px;
+			height: 24px;
+			background: black;
+			opacity: 0.3;
+			filter:alpha(opacity=30);
+			color: #fff;
+			text-align: center;
+			line-height: 24px;
+			border-radius: 2px;
+			display: none;
+		}
+	}
+	>div:hover .operation-tips {
+		display: block;
+	}
+}

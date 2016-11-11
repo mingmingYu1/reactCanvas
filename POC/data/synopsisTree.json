@@ -1,0 +1,37 @@
+{
+  "code": 200,
+  "data": {
+    "treeData": [
+      {
+        "name": "数据工厂",
+        "children": [
+          {
+            "name": "adsdsd"
+          },
+          {
+            "name": "ioio"
+          },
+          {
+            "name": "tutrut",
+            "children": [
+              {
+                "name": "dasd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "配置中心"
+      },
+      {
+        "name": "配置中心2",
+        "children": [
+          {
+            "name": "dsads"
+          }
+        ]
+      }
+    ]
+  }
+}
